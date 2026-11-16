@@ -6,6 +6,12 @@ Comparação controlada entre **Tucker-2** e **Tensor-Train (TT)** para comprimi
 
 Pesquisa de iniciação científica na FACOM/UFU. Uma versão deste trabalho recebeu o Prêmio Sérgio de Mello Schneider de Melhor Pesquisa no WTDCC 2026.
 
+## Pôster (WTDCC 2026)
+
+<a href="docs/poster_wtdcc_2026.pdf"><img src="docs/poster_wtdcc_2026.png" alt="Pôster WTDCC 2026" width="480"></a>
+
+[PDF](docs/poster_wtdcc_2026.pdf) · [PowerPoint editável](docs/poster_wtdcc_2026.pptx)
+
 ## O que está sendo comparado
 
 | | Tucker-2 (`src/tucker_compressor.py`) | Tensor-Train (`src/tensor_train_decomposer.py`) |
@@ -65,6 +71,7 @@ Leitura:
 ```
 src/                       módulos de decomposição (Tucker-2 e Tensor-Train)
 scripts/                   sweep Tucker isolado e quantização pós-Tucker (fp16 / INT8 PTQ)
+docs/                      pôster do WTDCC 2026 (PDF, PPTX e prévia)
 notebooks/training/        baselines e ablação de schedulers (ResNet-18/50)
 notebooks/decomposition/   sweeps Tucker × TT (baseline fixo ou Optuna; com FT ou *_no_ft)
 results/decomposition/     uma linha por (método, limiar, scheduler, seed) + sumários

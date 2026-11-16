@@ -13,6 +13,7 @@ data/
 # Saídas de execução: checkpoints das ablações e figuras geradas
 ablation_schedulers_*/
 *.png
+!docs/*.png
 
 # Python / Jupyter
 __pycache__/
