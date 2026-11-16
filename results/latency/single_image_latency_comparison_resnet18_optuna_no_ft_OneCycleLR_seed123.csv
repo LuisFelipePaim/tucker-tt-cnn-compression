@@ -1,0 +1,4 @@
+timestamp,model,threshold,latency_ms,gflops,speedup_vs_original
+2026-08-11 09:07:12,original,,5.5608,3.6271,1.0
+2026-08-11 09:07:12,tucker,0.9,6.0114,2.6345,0.925
+2026-08-11 09:07:12,tensor_train,0.9,8.0369,3.6271,0.692

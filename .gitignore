@@ -1,0 +1,27 @@
+# Pesos e checkpoints (≈10 GB localmente)
+*.pth
+*.pt
+*.onnx
+
+# Dataset (OralEpitheliumDB) — não redistribuído neste repositório
+Originais/
+DIS binary/
+data/
+*.tif
+*.tiff
+
+# Saídas de execução: checkpoints das ablações e figuras geradas
+ablation_schedulers_*/
+*.png
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor / ferramentas locais
+.vscode/
+.claude/
+.agents/

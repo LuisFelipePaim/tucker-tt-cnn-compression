@@ -1,0 +1,11 @@
+# Desenvolvido com Python 3.10/3.12. Instale o PyTorch com CUDA conforme https://pytorch.org
+torch
+torchvision
+tensorly
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+optuna
+jupyter
